@@ -10,6 +10,7 @@ It includes a few things:
 - Basic reponsiveness
 
 
+___
 
 ## Table of Contents
 
@@ -18,6 +19,8 @@ It includes a few things:
 - [Theme & app options](#Theme-&-app-options)
 - [Contributing](#contributing)
 - [Maintainers](#maintainers)
+
+
 <!-- - [License](#license) -->
 
 
