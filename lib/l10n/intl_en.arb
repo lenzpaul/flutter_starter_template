@@ -5,13 +5,18 @@
       "description": "This a description of the title of template app"
     },
 
-    "appDescription": "This is a template for a Flutter app with internationalization support.",
+    "appDescription": "This is a template for a Flutter project. It includes multiple language support, light and dark themes.",
     "@appDescription": {
-      "description": "This a description of the template app"
+        "description": "App description"
     },
 
     "changeTheme": "Change Theme",
     "@changeTheme": {
       "description": "The change theme button's text"
+    },
+
+    "changeLanguage" : "Change Language",
+    "@changeLanguage": {
+      "description": "The change language button's text"
     }
   }

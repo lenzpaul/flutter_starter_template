@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
+import 'package:template_sandbox/core/utils.dart';
 import 'package:template_sandbox/l10n/localizations_gen.dart';
 
 // relative imports
@@ -26,10 +27,8 @@ class App extends StatelessWidget {
       create: (_) {
         return AppOptions(
           themeMode: ThemeMode.dark, // default to dark theme
-          textScaleFactor: null,
-          locale: null,
+          locale: platformLocale,
           platform: null,
-          isTestMode: null,
         );
       },
       builder: (context, _) {
@@ -38,12 +37,8 @@ class App extends StatelessWidget {
         return MaterialApp(
           debugShowCheckedModeBanner: false, // hide debug banner
 
-          // Use `onGenerateTitle` to generate title based on localizations.
-          onGenerateTitle: (BuildContext context) =>
-              AppLocalizations.of(context)!.appTitle,
-
           //
-          // Theme
+          // Themes
           //
           themeMode: options.themeMode,
           theme: AppThemeData.lightThemeData.copyWith(
@@ -58,8 +53,12 @@ class App extends StatelessWidget {
           //
           localizationsDelegates: AppLocalizations.localizationsDelegates,
           supportedLocales: AppLocalizations.supportedLocales,
+          locale: options.locale,
 
-          //
+          // Use `onGenerateTitle` to generate title based on localizations.
+          onGenerateTitle: (BuildContext context) =>
+              AppLocalizations.of(context)!.appTitle,
+
           home: initialView,
         );
       },

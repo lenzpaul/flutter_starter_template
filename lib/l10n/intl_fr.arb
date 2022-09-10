@@ -1,0 +1,22 @@
+{
+
+   "appTitle": "Application Modèle",
+    "@appTitle": {
+      "description": "Titre de l'application"
+    },
+
+    "appDescription": "Un modèle pour un projet Flutter. Il inclut le support de plusieurs langues, les thèmes clair et foncé.",
+    "@appDescription": {
+      "description": "Description de l'application"
+    },
+
+    "changeTheme": "Changer de thème",
+    "@changeTheme": {
+      "description": "Bouton pour changer de thème"
+    },
+
+    "changeLanguage" : "Changer de langue",
+    "@changeLanguage": {
+      "description": "Bouton pour changer de langue"
+    }
+  }

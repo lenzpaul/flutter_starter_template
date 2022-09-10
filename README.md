@@ -4,10 +4,12 @@
 
 This is a template for a Flutter project. 
 
+This project was created to serve as a template for future Flutter projects. It includes internationalization, light and dark themes, and an app options class that can be used to store app-wide settings.
+
 It includes a few things:
 - Internationalization 
-- Themes and the ability to switch between them
-- Basic reponsiveness
+- Light and dark themes
+<!-- - Basic responsiveness support -->
 
 
 ___
@@ -15,7 +17,7 @@ ___
 ## Table of Contents
 
 - [Internationalization](#Internationalization)
-- [Responsiveness](#Responsiveness)
+<!-- - [Responsiveness](#Responsiveness) -->
 - [Theme & app options](#Theme-&-app-options)
 - [Contributing](#contributing)
 - [Maintainers](#maintainers)
@@ -24,8 +26,13 @@ ___
 <!-- - [License](#license) -->
 
 
-<!-- ## Background -->
-<!-- TODO: Fill out this section. -->
+## Background
+
+Internationalization is a feature that I find myself adding to most projects. But I find myself having to look up how to do every time I start a new project, so I wanted to have a template that I could use to quickly get started on a new project and support multiple languages, as well as multiple themes.
+
+There are a few things that I would like to add in the future:
+- Responsiveness support
+- A more robust app options class
 
 <!-- ## Usage -->
 <!-- TODO: Fill out this section. -->
@@ -35,40 +42,43 @@ ___
 
 ## Internationalization
 
-This app is internationalized using the arb format. See [Internationalizing Flutter apps
-](https://docs.flutter.dev/development/accessibility-and-localization/internationalization#adding-your-own-localized-messages) for more information.
+This app is set up to support multiple languages.  
+
+It is internationalized using the arb format. See [Internationalizing Flutter
+apps
+](https://docs.flutter.dev/development/accessibility-and-localization/internationalization#adding-your-own-localized-messages)
+for more information.
 
 To add a language, create a file in the `lib/l10n` directory and name it `intl_<language>.arb`. The file should contain a single arb file, with the following format:
 
 ```
 {
-    "appTitle": "GoHash",
+    "appTitle": "Flutter Starter Template",
     "@appTitle": {
-        "description": "The title of the GoHash app"
+        "description": "The title of the app"
     }
 
-    "anotherStringKey": "String value to be displayed for the language",
-    "@anotherStringKey": {
-        "description": "Description of the string value"
+    "appDescription": "This is a template for a Flutter project. It includes multiple language support, light and dark themes, andi is ready for responsive design.",
+    "@appDescription": {
+        "description": "App description"
     }
 
     ...
 }
 ```
-Use `AppLocalizations.of(context).nameOfTheKey` in the app to get the translation for the current locale. 
+Use `AppLocalizations.of(context).nameOfTheKey` in the app to get the translation for the current locale.  
 
-Fenerated files are created when app is ran, and can be found under: `.dart_tool/flutter_gen/gen_l10n`
+e.g. `AppLocalizations.of(context).appTitle` will return the translation for the key `appTitle` in the current locale.
 
-## Responsiveness
-
-The app is designed to be responsive. 
-
-Breakpoints are defined by the [adaptive_breakpoints](https://pub.dev/packages/adaptive_breakpoints) package.
+Generated files are created when app is ran, and can be found under: `.dart_tool/flutter_gen/gen_l10n`
 
 
-The responsiveness logic is defined in `lib/layout/adaptive.dart`.
-<!-- The responsiveness is defined by the [responsive_builder](https://pub.dev/packages/responsive_builder) package. -->
+<!-- TODO: Add basic responsiveness support -->
+<!-- ## Responsiveness
 
+The app includes support for multiple screen sizes and orientations using the [responsive_builder](https://pub.dev/packages/responsive_builder) package. -->
+
+<!-- The responsiveness logic is defined in `lib/layout/adaptive.dart`. -->
 
 ## Theme & app options
 Themes are defined in `lib/core/app_themes_data.dart`.   
