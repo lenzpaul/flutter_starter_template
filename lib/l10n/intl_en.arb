@@ -1,0 +1,7 @@
+{
+
+   "appTitle": "Template App",
+    "@appTitle": {
+      "description": "This a description of the title of template app"
+    }
+  }
