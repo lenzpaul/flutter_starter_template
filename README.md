@@ -64,7 +64,7 @@ Small note: If editing the README, please conform to the [standard-readme](https
 ## Internationalization
 
 This app is internationalized using the arb format. See [Internationalizing Flutter apps
-](https://docs.flutter.dev/development/accessibility-and-localization/internationalization) for more information.
+](https://docs.flutter.dev/development/accessibility-and-localization/internationalization#adding-your-own-localized-messages) for more information.
 
 To add a language, create a file in the `lib/l10n` directory and name it `intl_<language>.arb`. The file should contain a single arb file, with the following format:
 
