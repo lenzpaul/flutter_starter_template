@@ -13,6 +13,8 @@ This project was created to serve as a template for future Flutter projects. It 
 - Light and dark themes -->
 <!-- - Basic responsiveness support -->
 
+[flutter_starter_template.webm](https://user-images.githubusercontent.com/34327253/189505537-08e12361-eee5-4a2a-9d32-31f6c4fdd679.webm)
+
 
 ___
 
