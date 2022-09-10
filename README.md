@@ -13,53 +13,22 @@ It includes a few things:
 
 ## Table of Contents
 
-- [Background](#background)
-- [Maintainers](#maintainers)
-- [License](#license)
-- [Contributing](#contributing)
 - [Internationalization](#Internationalization)
 - [Responsiveness](#Responsiveness)
 - [Theme & app options](#Theme-&-app-options)
+- [Contributing](#contributing)
+- [Maintainers](#maintainers)
+<!-- - [License](#license) -->
 
-<!-- - [Security](#security) -->
-<!-- - [Install](#install) -->
-<!-- - [Usage](#usage) -->
-<!-- - [API](#api) -->
-
-<!-- ## Security -->
 
 <!-- ## Background -->
-
 <!-- TODO: Fill out this section. -->
 
-
-<!-- ## Install
-
-```
-``` -->
-
-<!-- ## Usage
-
-```
-``` -->
-
-
-## Maintainers
-
-**Lenz Paul**  
-- gh: [@bringbackthedog](https://github.com/bringbackthedog/)    
-- email: [lenz@gohash.tech](mailto:bringbackthedog@gmail.com)  
-- linkedin: [linkedin.com/in/lenztpaul](https://www.linkedin.com/in/lenztpaul/)  
-
-
+<!-- ## Usage -->
+<!-- TODO: Fill out this section. -->
 
 <!-- TODO: License -->
 <!-- ## License -->
-
-
-## Contributing
-Small note: If editing the README, please conform to the [standard-readme](https://github.com/RichardLitt/standard-readme) specification.
-
 
 ## Internationalization
 
@@ -99,6 +68,16 @@ The responsiveness logic is defined in `lib/layout/adaptive.dart`.
 
 
 ## Theme & app options
-
 Themes are defined in `lib/core/app_themes_data.dart`.   
 App options are defined in `lib/core/app_options.dart`.
+
+
+## Contributing
+Small note: If editing the README, please conform to the [standard-readme](https://github.com/RichardLitt/standard-readme) specification.
+
+
+## Maintainers  
+**Lenz Paul**  
+- gh: [@bringbackthedog](https://github.com/bringbackthedog/)    
+- email: [lenz@gohash.tech](mailto:bringbackthedog@gmail.com)  
+- linkedin: [linkedin.com/in/lenztpaul](https://www.linkedin.com/in/lenztpaul/)  
