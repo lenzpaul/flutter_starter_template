@@ -6,8 +6,9 @@ This is a template for a Flutter project.
 
 It includes a few things:
 - Internationalization 
-- Theming
-- Basic reponsivene
+- Themes and the ability to switch between them
+- Basic reponsiveness
+
 
 
 ## Table of Contents
@@ -42,7 +43,6 @@ It includes a few things:
 ```
 ``` -->
 
-<!-- ## API -->
 
 ## Maintainers
 

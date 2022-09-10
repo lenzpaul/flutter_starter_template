@@ -3,5 +3,15 @@
    "appTitle": "Template App",
     "@appTitle": {
       "description": "This a description of the title of template app"
+    },
+
+    "appDescription": "This is a template for a Flutter app with internationalization support.",
+    "@appDescription": {
+      "description": "This a description of the template app"
+    },
+
+    "changeTheme": "Change Theme",
+    "@changeTheme": {
+      "description": "The change theme button's text"
     }
   }
