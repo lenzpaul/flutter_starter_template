@@ -6,6 +6,8 @@ This is a template for a Flutter project.
 
 This project was created to serve as a template for future Flutter projects. It includes internationalization, light and dark themes, and an app options class that can be used to store app-wide settings.
 
+
+
 <!-- It includes a few things:
 - Internationalization 
 - Light and dark themes -->
@@ -86,7 +88,8 @@ App options are defined in `lib/core/app_options.dart`.
 
 
 ## Contributing
-Small note: If editing the README, please conform to the [standard-readme](https://github.com/RichardLitt/standard-readme) specification.
+PRs accepted.
+<!-- Small note: If editing the README, please conform to the [standard-readme](https://github.com/RichardLitt/standard-readme) specification. -->
 
 
 ## Maintainers  
