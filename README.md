@@ -6,21 +6,21 @@ This is a template for a Flutter project.
 
 This project was created to serve as a template for future Flutter projects. It includes internationalization, light and dark themes, and an app options class that can be used to store app-wide settings.
 
-It includes a few things:
+<!-- It includes a few things:
 - Internationalization 
-- Light and dark themes
+- Light and dark themes -->
 <!-- - Basic responsiveness support -->
 
 
 ___
 
 ## Table of Contents
-
+- [Background](#background)
 - [Internationalization](#Internationalization)
-<!-- - [Responsiveness](#Responsiveness) -->
 - [Theme & app options](#Theme-&-app-options)
 - [Contributing](#contributing)
 - [Maintainers](#maintainers)
+<!-- - [Responsiveness](#Responsiveness) -->
 
 
 <!-- - [License](#license) -->
